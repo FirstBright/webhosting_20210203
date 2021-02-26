@@ -1,0 +1,16 @@
+@color:#234234;
+@color_Hover:tomato;
+@defaultFontSize:16px;
+@margin : 10px;
+body{
+    color: @color;
+    font-size: @defaultFontSize;
+    margin:@margin*10;
+}
+a{
+    color: @color;
+    &:hover
+    {
+        color:@color_Hover
+    }
+}
